@@ -1,0 +1,119 @@
+@charset "utf-8";
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul, li {
+    list-style: none;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+img {
+    vertical-align: middle;
+    border: 0;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: "Noto Sans KR", "Malgun Gothic", "돋움", "AppleGothic", "Apple SD Gothic Neo", sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 1.4;
+    color: #333;
+}
+
+/* ==== 개별요소 ==== */
+.box {
+    position: relative;
+    height: 100%;
+}
+
+.wrap {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -58%);
+}
+
+.aivill-logo {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 45px;
+}
+
+.login-box {
+    width: 677px;
+    height: 447px;
+    border: 1.5px solid #D4DBE8;
+    border-radius: 8px;
+    margin: 0 auto;
+    padding: 62px 52px;
+}
+
+.login-box input {
+    display: block;
+    width: 587px;
+    height: 73px;
+    padding: 0 38px;
+    border: 1.5px solid #D4DBE8;
+    border-radius: 8px;
+
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.login-box input::placeholder {
+    color: #16365D;
+}
+
+.login-box input:nth-child(2) {
+    margin-top: 35px;
+}
+
+.login-box button {
+    display: block;
+    width: 587px;
+    height: 73px;
+    background-color: #16365D;
+    border-radius: 8px;
+    margin-top: 70px;
+
+    font-size: 24px;
+    color: #fff;
+}
+
+.login-etc {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: inline-block;
+    margin-top: 30px;
+    white-space: nowrap;
+}
+
+.login-etc a {
+    font-size: 20px;
+    line-height: 25px;
+    color: #16365D;
+    margin: 0 30px;
+}
+
+.bar {
+    position: absolute;
+    top: 3px;
+    display: inline-block;
+    width: 1.5px;
+    height: 21px;
+    background-color: #16365D;
+}
